@@ -15,23 +15,19 @@
     width: 80%;
     margin: 0 auto;
     height: 100%;
-    background-color: yellow;
-}
-
-.bordered{
-    border: 2px dashed black;
 }
 
 header{
     height: 4.5rem;
-    background-color: #1aee06;
+    background-color: #ff6915;
     flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
 }
 
 .top-nav{
     height: 3rem;
     margin-top: .75rem;
-    background-color: #ff6915;
+    padding: 0rem 4rem;
 }
 
 li{
@@ -40,7 +36,7 @@ li{
 
 a{
     text-decoration: none;
-    color: white;
+    font-size: 1.2rem;
 }
 
 .flex-end{
@@ -49,7 +45,7 @@ a{
 }
 
 .main-logo{
-    width: 100px;
+    width: 8rem;
 }
 
 .icon-menu,
@@ -64,15 +60,21 @@ a{
 }
 
 
+.white{
+    color: white;
+}
 
+i{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
 
 
 .content{
     margin-top: 1rem;
     width: 15rem;
-    background-color: blueviolet; 
     flex-basis: calc(100% / 3);
-    
+    padding: 4rem;
 }
 
 .card{
@@ -98,7 +100,7 @@ a{
 }
 
 .favourites{
-    top: 0;
+    top: .5rem;
     right: 0;
     font-size: 2rem;
     background-color: white;
@@ -147,22 +149,20 @@ a{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     height: 4.5rem;
-    background-color: #1aee06;
+    background-color: #1a1a1a;
 }
 
+footer>div{
+    padding: 0rem 4rem;
+}
+
+.find-us{
+    padding: 0rem 0rem 0.5rem 1rem;
+}
+
+.boolando-srl{
+    padding-bottom: 0.5rem;
+}
 
