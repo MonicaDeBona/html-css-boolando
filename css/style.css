@@ -23,6 +23,9 @@ header{
     flex-direction: column;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
     margin-bottom: 2rem;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
 }
 
 .top-nav{
@@ -70,6 +73,9 @@ i{
     padding-left: 1rem;
 }
 
+main{
+    padding-top: 5.5rem;
+}
 
 .content{
     margin-top: 1rem;
