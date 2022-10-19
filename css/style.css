@@ -79,6 +79,19 @@ a{
     background-color: blue;
 }
 
+.replace{
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.card:hover .replace{
+    display: inline;
+}
+
+
 .items{
     width: 100%;
     display: block;
@@ -91,6 +104,7 @@ a{
     background-color: white;
     width: 2rem;
     text-align: center;
+    z-index: 2;
 }
 
 .favourites:hover{
@@ -101,6 +115,7 @@ a{
     background-color: green;
     bottom: 3rem;
     left: 2.5rem;
+    z-index: 3;
 }
 
 .sostenibilità-left{
@@ -113,12 +128,14 @@ a{
     background-color: red;
     bottom: 3rem;
     left: 0;
+    z-index: 4;
 }
 
 .discount30{
     background-color: red;
     bottom: 3rem;
     left: 0;
+    z-index: 5;
 }
 
 .p-relative{
