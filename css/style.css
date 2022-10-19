@@ -54,8 +54,8 @@ header{
     background-color: blue;
 }
 
-.flex-centered{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+footer{
+    height: 4.5rem;
+    background-color: #1aee06;
 }
