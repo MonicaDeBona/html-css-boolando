@@ -31,8 +31,34 @@ header{
 .top-nav{
     height: 3rem;
     margin-top: .75rem;
-    background-color: orange;
+    background-color: #ff6915;
 }
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-logo{
+    width: 100px;
+}
+
+
+
+.icon-menu,
+.main-menu{
+    flex-basis: 40%;
+}
+
 
 .content{
     margin-top: 1rem;
@@ -40,6 +66,7 @@ header{
     width: 15rem;
     background-color: blueviolet; 
     flex-basis: calc(100% / 3);
+    
 }
 
 .flex-container{
@@ -58,4 +85,8 @@ header{
 footer{
     height: 4.5rem;
     background-color: #1aee06;
+}
+
+.items{
+    width: 100%;
 }
