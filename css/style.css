@@ -59,24 +59,84 @@ a{
     flex-basis: 40%;
 }
 
-
-.content{
-    margin-top: 1rem;
-    width: 15rem;
-    background-color: blueviolet; 
-    flex-basis: calc(100% / 3);
-    padding: 1rem;
-}
-
 .flex-container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+
+
+
+
+
+
+
+.content{
+    margin-top: 1rem;
+    width: 15rem;
+    background-color: blueviolet; 
+    flex-basis: calc(100% / 3);
+    
+}
+
 .card{
     background-color: blue;
 }
+
+.items{
+    width: 100%;
+    display: block;
+}
+
+.favourites{
+
+}
+
+.sostenibilità{
+    background-color: green;
+    bottom: 3rem;
+    left: 2.5rem;
+}
+
+.sostenibilità-left{
+    background-color: green;
+    bottom: 3rem;
+    left: 0rem;
+}
+
+.discount50{
+    background-color: red;
+    bottom: 3rem;
+    left: 0;
+}
+
+.discount30{
+    background-color: red;
+    bottom: 3rem;
+    left: 0;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer{
@@ -84,6 +144,4 @@ footer{
     background-color: #1aee06;
 }
 
-.items{
-    width: 100%;
-}
+
