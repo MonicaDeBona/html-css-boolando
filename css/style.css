@@ -22,12 +22,13 @@ header{
     background-color: #ff6915;
     flex-direction: column;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+    margin-bottom: 2rem;
 }
 
 .top-nav{
     height: 3rem;
     margin-top: .75rem;
-    padding: 0rem 4rem;
+    padding: 0rem 1rem;
 }
 
 li{
@@ -74,11 +75,7 @@ i{
     margin-top: 1rem;
     width: 15rem;
     flex-basis: calc(100% / 3);
-    padding: 4rem;
-}
-
-.card{
-    background-color: blue;
+    padding: 1rem;
 }
 
 .replace{
@@ -148,14 +145,23 @@ i{
     position: absolute;
 }
 
+.new-price{
+    color: red;
+}
+
+#old-price{
+    color: black;
+    text-decoration: line-through;
+}
 
 footer{
     height: 4.5rem;
     background-color: #1a1a1a;
+    margin-top: 2rem;
 }
 
 footer>div{
-    padding: 0rem 4rem;
+    padding: 0rem 1rem;
 }
 
 .find-us{
