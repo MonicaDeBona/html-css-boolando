@@ -90,7 +90,12 @@ a{
 }
 
 .favourites{
-
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    background-color: white;
+    width: 2rem;
+    text-align: center;
 }
 
 .sostenibilità{
