@@ -62,11 +62,10 @@ a{
 
 .content{
     margin-top: 1rem;
-    height: 25rem;
     width: 15rem;
     background-color: blueviolet; 
     flex-basis: calc(100% / 3);
-    
+    padding: 1rem;
 }
 
 .flex-container{
@@ -76,8 +75,6 @@ a{
 }
 
 .card{
-    width: 15rem;
-    height: 20rem;
     background-color: blue;
 }
 
